@@ -2,7 +2,7 @@ import { JSONValue } from "./JSON";
 import { EmailUrl } from "./string";
 
 export namespace NPM {
-  export type PackageRecord = {
+  export interface Package {
     author?: Author;
     bin?: string | Record<string, string>;
     browser?: string;
@@ -36,7 +36,7 @@ export namespace NPM {
     scripts?: Record<string, string>;
     version?: string;
     workspaces?: string[];
-  };
+  }
 }
 type NpmPackageURI = `${string}:${string}`;
 

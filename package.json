@@ -1,12 +1,17 @@
 {
   "name": "@mcswift/types",
-  "version": "0.0.3",
+  "version": "0.0.6",
   "description": "",
-  "types":"./lib/index.d.ts",
-  "exports":{
-    "types":"./lib/index.d.ts"
+  "types": "./lib/index.d.ts",
+  "exports": {
+    "types": "./lib/index.d.ts"
   },
-  "keywords": ["typescript","types","util","json"],
+  "keywords": [
+    "typescript",
+    "types",
+    "util",
+    "json"
+  ],
   "author": {
     "email": "hi@mcswift.cn",
     "name": "mcswift"
